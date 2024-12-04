@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
         textTransform: "none",
     },
     default: {
-
-    }
+        
+    },
 });
 
 export default styles;
