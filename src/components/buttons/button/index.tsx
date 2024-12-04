@@ -1,7 +1,7 @@
 import { Text, TouchableOpacity, TouchableOpacityProps, View } from "react-native";
 import styles from "./styles";
 
-type StyleKeys = 'default';
+type StyleKeys = 'default'
 
 type ButtonProps = TouchableOpacityProps & {
     title?: string;
@@ -13,7 +13,7 @@ export default function Button({ title, className, ...rest }: ButtonProps) {
 
     if (className === "default") {
         styleText = {...styles.buttonText}
-    }
+    } 
 
     return (
         <View style={styles.container}>
