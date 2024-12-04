@@ -25,7 +25,7 @@ export default function LandingPageScreen() {
                 <Image source={require("../../../assets/logo - grande.png")} />
             </View>
             <View style={styles.button}>
-                <Button className="default" title="Doe agora"/>
+                <Button className="default" title="Doe agora" onPress={() => navigation.navigate("Login")}/>
             </View>
         </View>
     );
