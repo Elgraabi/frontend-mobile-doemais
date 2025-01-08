@@ -9,4 +9,6 @@ export type RoutesParams = {
     ForgotPassword: undefined;
 
     Home: undefined;
+
+    NewForgot: undefined;
 };

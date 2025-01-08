@@ -5,6 +5,7 @@ import LoginScreen from "../screens/login";
 import RegisterScreen from "../screens/register";
 import ForgotPasswordScreen from "../screens/forgotPassword";
 import HomeScreen from "../screens/home";
+import NewForgotScreen from "../screens/newForgot"
 
 
 
@@ -25,6 +26,8 @@ export default function AppNavigation() {
                 <Stack.Screen name="ForgotPassword" component={ForgotPasswordScreen} />
 
                 <Stack.Screen name="Home" component={HomeScreen} />
+
+                <Stack.Screen name= "NewForgot" component={NewForgotScreen} />
                 
             </Stack.Navigator>
         </NavigationContainer>
