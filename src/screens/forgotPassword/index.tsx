@@ -20,9 +20,9 @@ export default function ForgotPasswordScreen() {
     };
 
     // Função para ir recuperar senha
-    const handleLogin = () => {
+    const handlePress = () => {
         if (isFormValid()) {
-            navigation.navigate("Home"); // Redireciona para a tela NewForgot para auterar a senha
+            navigation.navigate("NewForgot"); // Redireciona para a tela NewForgot para auterar a senha
         }
     };  
 
@@ -51,8 +51,8 @@ export default function ForgotPasswordScreen() {
             <View style={styles.button}>
                 <Button 
                     className="default" 
-                    title="Acessar" 
-                    onPress={handleLogin} 
+                    title="Enviar" 
+                    onPress={handlePress} 
                     disabled={!isFormValid()} // Desabilita o botão se os campos não estiverem preenchidos
                 />
             </View>

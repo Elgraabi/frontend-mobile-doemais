@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     },
     box: {
         width: 300,
-        height: 50,
+        height: 170,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -30,13 +30,30 @@ const styles = StyleSheet.create({
     },
     inputs: {
         width: "90%",
-        height: "20%"
+        height: "20%",
+        marginTop: 30,
     },
     backButton: {
         position: "absolute",
         paddingTop: 60,
         paddingRight: 310,
-    }
+    },
+    text: {
+        fontWeight: "bold",
+        color: "black",
+        textAlign: "center",
+        fontFamily: "Inter", 
+        fontSize: 15, 
+        lineHeight: 34,
+    },
+    button: {
+        marginTop: 30,
+        width: "100%",
+        height: "15%",
+        alignItems: "center",
+        flexDirection: "column",
+        paddingHorizontal: 20,
+    },
 });
 
 export default styles;
