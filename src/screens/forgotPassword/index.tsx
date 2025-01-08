@@ -35,7 +35,7 @@ export default function ForgotPasswordScreen() {
                 <Image source={require("../../../assets/Logo - Pequena.png")} />
             </View>
             <View style={styles.box}>
-                <Text style={styles.title}>Login</Text>
+                <Text style={styles.title}>Recuperar Senha</Text>
                 <Text style={styles.text}>
                     Insira um email/CPF para iniciar o processo de recuperação
                 </Text>
